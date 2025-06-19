@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pet Helper - Brown Minimal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs" defer></script>
+  <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+  <style>
+    /* Custom fade slide-up animation */
+    @keyframes fadeSlideUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .fade-slide-up {
+      animation: fadeSlideUp 0.8s ease forwards;
+    }
+    /* Testimonials fade */
+    .fade-out {
+      animation: fadeOut 0.4s ease forwards;
+    }
+    .fade-in {
+      animation: fadeIn 0.4s ease forwards;
+    }
+    @keyframes fadeOut {
+      0% {opacity: 1;}
+      100% {opacity: 0;}
+    }
+    @keyframes fadeIn {
+      0% {opacity: 0;}
+      100% {opacity: 1;}
+    }
+
+    /* Background pattern for hero & testimonials */
+    body {
+      background-color: #faf5f0; /* very light beige */
+      font-family: 'Georgia', serif;
+    }
+    .pattern-bg {
+      background-image:
+        repeating-linear-gradient(
+          45deg,
+          #e8dfd6,
+          #e8dfd6 10px,
+          #f9f5ef 10px,
+          #f9f5ef 20px
+        );
+    }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <!-- Navbar -->
+  <header class="sticky top-0 bg-white shadow z-50 transition-all duration-500" x-data="{ scrolled: false }" x-init="window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 })" :class="scrolled ? 'bg-[#6B4C3B] shadow-lg' : ''">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-serif font-bold text-[#6B4C3B]">Pet Helper</h1>
+      <nav class="space-x-4 font-medium text-[#7A5B40]">
+        <a href="#services" class="hover:text-[#8C6D4B] transition">Services</a>
+        <a href="#testimonials" class="hover:text-[#8C6D4B] transition">Testimonials</a>
+        <a href="#contact" class="hover:text-[#8C6D4B] transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="pattern-bg py-20">
+    <div class="max-w-4xl mx-auto text-center px-4 fade-slide-up" style="animation-delay: 0.2s;">
+      <h2 class="text-4xl font-serif font-bold text-[#4B3927] mb-4">Helping You Care for Your Pet</h2>
+      <p class="text-lg text-[#5E4A37] mb-8 max-w-xl mx-auto">Pet Helper connects you with trusted pet services in your area – walking, grooming, and more.</p>
+      <a href="#contact" class="bg-[#8C6D4B] hover:bg-[#7A5B40] text-white font-semibold px-6 py-3 rounded-full shadow-md transition-transform transform hover:scale-105">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 bg-[#fff8f1]">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-serif font-bold text-center mb-12 text-[#5E4A37] fade-slide-up" style="animation-delay: 0.3s;">Our Services</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <template x-for="(service, i) in [
+          {title:'Pet Walking', desc:'Daily walks and exercise tailored to your pet’s needs.'},
+          {title:'Grooming', desc:'Baths, trims, and full pampering sessions.'},
+          {title:'Vet Appointments', desc:'We help schedule and transport your pet to the vet.'}
+        ]" :key="i">
+          <div
+            class="bg-[#D9CFC4] p-6 rounded-2xl shadow-sm hover:shadow-md hover:scale-105 transition transform cursor-pointer fade-slide-up"
+            :style="`animation-delay: ${0.4 + i * 0.15}s`"
+          >
+            <h4 class="text-xl font-semibold mb-2 text-[#5E4A37]" x-text="service.title"></h4>
+            <p class="text-[#6B5746]" x-text="service.desc"></p>
+          </div>
+        </template>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="pattern-bg py-20" x-data="{
+    current: 0,
+    testimonials: [
+      { name: 'Alex & Luna', quote: 'Pet Helper made my life so much easier! I can trust them with my dog anytime.' },
+      { name: 'Jamie & Max', quote: 'Grooming appointments are a breeze now. Thank you Pet Helper!' },
+      { name: 'Taylor & Bella', quote: 'Professional and kind service. I recommend them to all pet lovers!' }
+    ],
+    fade: false,
+    next() {
+      this.fade = true;
+      setTimeout(() => {
+        this.current = (this.current + 1) % this.testimonials.length;
+        this.fade = false;
+      }, 400);
+    }
+  }" x-init="setInterval(() => next(), 7000)">
+    <div class="max-w-5xl mx-auto text-center px-4">
+      <h3 class="text-3xl font-serif font-bold text-[#5E4A37] mb-8 fade-slide-up" style="animation-delay: 0.3s;">Happy Customers</h3>
+
+      <div class="bg-[#fff8f1] p-8 rounded-xl shadow-md max-w-2xl mx-auto relative" :class="fade ? 'fade-out' : 'fade-in'">
+        <p class="text-lg italic text-[#6B5746]" x-text="testimonials[current].quote"></p>
+        <h4 class="mt-4 font-semibold text-[#7A5B40]" x-text="testimonials[current].name"></h4>
+      </div>
+
+      <div class="mt-6 space-x-2 flex justify-center">
+        <template x-for="(t, index) in testimonials" :key="index">
+          <button
+            class="w-4 h-4 rounded-full focus:outline-none border border-[#7A5B40]"
+            :class="current === index ? 'bg-[#7A5B40]' : 'bg-[#D9CFC4]'"
+            @click="current = index"
+            aria-label="Show testimonial"
+          ></button>
+        </template>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+    <section id="contact" class="py-20 bg-[#fff8f1]" x-data="{ visible: false }" x-init="visible = true">
+    <div class="max-w-xl mx-auto px-4">
+     <h3 class="text-3xl font-serif font-bold text-center mb-8 text-[#5E4A37]" :class="visible ? 'fade-slide-up' : 'opacity-0'">Get in Touch</h3>
+     <form
+        class="space-y-6 bg-[#D9CFC4] p-6 rounded-xl shadow-sm transition-opacity duration-700"
+        :class="visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-6'"
+        hx-post="/contact"
+        hx-swap="outerHTML"
+        hx-target="this"
+      >
+        <div>
+          <label class="block text-sm font-medium mb-1 text-[#5E4A37]">Name</label>
+          <input type="text" name="name" class="w-full px-4 py-2 border border-[#A99786] rounded-lg focus:ring-2 focus:ring-[#7A5B40] focus:border-[#7A5B40]" required />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1 text-[#5E4A37]">Email</label>
+          <input type="email" name="email" class="w-full px-4 py-2 border border-[#A99786] rounded-lg focus:ring-2 focus:ring-[#7A5B40] focus:border-[#7A5B40]" required />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1 text-[#5E4A37]">Message</label>
+          <textarea name="message" rows="4" class="w-full px-4 py-2 border border-[#A99786] rounded-lg focus:ring-2 focus:ring-[#7A5B40] focus:border-[#7A5B40]" required></textarea>
+        </div>
+        <button type="submit" class="w-full bg-[#8C6D4B] hover:bg-[#7A5B40] text-white py-2 rounded-lg font-semibold transition-transform transform hover:scale-105">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#6B4C3B] text-white text-center py-6 fade-slide-up" style="animation-delay: 0.5s;">
+    <p>&copy; 2025 Pet Helper. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
