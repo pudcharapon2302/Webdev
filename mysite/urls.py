@@ -27,5 +27,9 @@ urlpatterns = [
     path('',landing),
     path('blog/',include('blog.urls')),
     path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls),
+    # บอกให้ Django รู้ว่าถ้า URL ขึ้นต้นด้วย 'quiz/'
+    # ให้ไปดู URL pattern ที่ไฟล์ quiz/urls.py
+    path('quiz/', include('quiz.urls')),
 
 ]
