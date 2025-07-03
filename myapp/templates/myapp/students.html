@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 20px;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 90vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            padding: 30px 40px;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            letter-spacing: -0.5px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 15px;
+        }
+
+        ol {
+            list-style: none; /* Remove default numbering */
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            background-color: #f9fbfb;
+            margin-bottom: 15px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border: 1px solid #e0e6ea;
+            transition: all 0.3s ease;
+        }
+
+        li:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+            background-color: #f0f4f7;
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 2px solid #5d9cec;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .student-info {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            font-size: 1.1em;
+            color: #4a4a4a;
+        }
+
+        .student-info strong {
+            color: #2c3e50;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .student-info span {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .email {
+            color: #5d9cec;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>รายชื่อนักเรียน</h1>
+        <ol>
+            {% for s in object_list %}
+            <li>
+                <img src="https://testingbot.com/free-online-tools/random-avatar/200?img={{s.id}}" alt="Student Avatar">
+                <div class="student-info">
+                    <strong>{{ s.name }}</strong>
+                    <span>วันเกิด: {{ s.dob }}</span>
+                    <span class="email">อีเมล: {{ s.email }}</span>
+                </div>
+            </li>
+            {% endfor %}
+        </ol>
+    </div>
+</body>
+</html>

@@ -2,9 +2,10 @@ import io
 import sys
 from http.client import responses
 
-from django.db.models.fields import return_None
+#from django.db.models.fields import return_None
 from django.http import HttpResponse, JsonResponse, FileResponse
 from django.shortcuts import render
+from myapp.models import Student
 import io
 from reportlab.pdfgen import canvas
 
@@ -51,5 +52,13 @@ def pdf(request):
     # present the option to save the file.
     buffer.seek(0)
     return FileResponse(buffer, as_attachment=True, filename="hello.pdf")
+
+def students(request):
+    context = {}
+    context['object_list'] = Student.objects.all()[:11]
+    context['object_list'] = Student.objects.filter(name__icontains = 'พ')
+    context['object_list'] = Student.objects.filter(name__endswith = 'm')
+    context['object_list'] = Student.objects.filter(name__startswith = 'm')
+    return render(request,'myapp/students.html',context)
 
 

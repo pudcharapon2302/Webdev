@@ -1,0 +1,902 @@
+[
+{
+  "model": "myapp.student",
+  "pk": 1,
+  "fields": {
+    "name": "Andy Carter",
+    "dob": "2012-03-04",
+    "email": "andy@ubu.ac.th"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 2,
+  "fields": {
+    "name": "Diddy Shaun",
+    "dob": "2010-02-24",
+    "email": "didy@ubu.ac.th"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 3,
+  "fields": {
+    "name": "Tom Crusie",
+    "dob": "1974-03-12",
+    "email": "Tom@ubu.ac.th"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 4,
+  "fields": {
+    "name": "α╣Çα╕üα╕╡α╕óα╕úα╕òα╕┤α╕¿α╕▒α╕üα╕öα╕┤α╣î α╕òα╕úα╕╡α╣Çα╕áα╕úα╕┤α╕Öα╕ùα╕úα╣î",
+    "dob": "2005-04-13",
+    "email": "phiirphathr76@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 5,
+  "fields": {
+    "name": "α╕¡α╕▒α╕Üα╕öα╕╕α╕Ñα╣Çα╕Ñα╕▓α╕░α╕½α╣î α╣üα╕Öα╣êα╕Öα╕öα╕╕α╕êα╕¢α╣ëα╕¡α╕í",
+    "dob": "1997-02-20",
+    "email": "nthasnsuththi@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 6,
+  "fields": {
+    "name": "α╕¿α╕┤α╕úα╕ôα╕▒α╕É α╣äα╕ùα╣äα╕èα╣éα╕ó",
+    "dob": "2002-12-01",
+    "email": "dbindii@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 7,
+  "fields": {
+    "name": "α╕êα╕╕α╕æα╕▓α╕áα╕úα╕ôα╣î α╕Öα╕▓α╕Åα╕äα╕▓α╕óα╕╡",
+    "dob": "1998-09-22",
+    "email": "okmltangkulngaam@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 8,
+  "fields": {
+    "name": "α╕ñα╕ùα╕ÿα╕┤α╣îα╕èα╕üα╕ú α╕Üα╕╕α╕òα╕öα╕▓",
+    "dob": "1999-06-15",
+    "email": "ndaawraam@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 9,
+  "fields": {
+    "name": "α╕úα╕▓α╕èα╕▒α╕Öα╕ùα╕úα╣î α╕ïα╕▓α╕ïα╕╕α╕í",
+    "dob": "2001-08-27",
+    "email": "sthnadphimphkaar@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 10,
+  "fields": {
+    "name": "α╕èα╕▒α╕ìα╕ìα╕▓α╕Öα╕╕α╕Öα╕▓α╕ó α╕¬α╕╕α╕ºα╕úα╕úα╕ôα╕½α╕çα╕⌐α╣î",
+    "dob": "1999-03-30",
+    "email": "thrngokmldilk@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 11,
+  "fields": {
+    "name": "α╕üα╕┤α╕òα╕┤α╕ºα╕▒α╕Æα╕Öα╣î α╕Öα╕┤α╕Ñα╕ºα╕úα╕úα╕ô",
+    "dob": "2007-06-27",
+    "email": "thwnthngchrinthrthiphy@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 12,
+  "fields": {
+    "name": "α╕₧α╕▓α╕öα╕╡α╕Ñα╣èα╕░ α╣Çα╕òα╕íα╕┤α╕óα╕░α╣Çα╕öα╕è",
+    "dob": "1994-10-14",
+    "email": "nwlephngpiyananth@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 13,
+  "fields": {
+    "name": "α╕¢α╕áα╕▓α╕ºα╕úα╕┤α╕Öα╕ùα╕úα╣î α╕ºα╕░α╕äα╕╡α╕íα╕▒α╕Ö",
+    "dob": "1995-06-21",
+    "email": "bunyatiirnasukrstaa@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 14,
+  "fields": {
+    "name": "α╕ºα╕úα╕úα╕ôα╕Öα╕┤α╕¬α╕▓ α╕¿α╕úα╕╡α╕òα╕░α╕ºα╕▒α╕Ö",
+    "dob": "2001-10-18",
+    "email": "fthnmphl@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 15,
+  "fields": {
+    "name": "α╕ºα╕úα╕úα╕ôα╕▓α╕ò α╕Öα╕▓α╕íα╣Çα╕¬α╕ºα╕òα╕ú",
+    "dob": "1994-09-27",
+    "email": "naatkhaayiicchakrkrnaay@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 16,
+  "fields": {
+    "name": "α╕Öα╕▒α╕Öα╕ùα╕ºα╕╕α╕Æα╕┤ α╕Öα╕▒α╕üα╕¬α╕│α╕½α╕úα╕ºα╕ê",
+    "dob": "2002-07-13",
+    "email": "enuuengnnthphkhwathn@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 17,
+  "fields": {
+    "name": "α╣Çα╕₧α╣çα╕ìα╕óα╕╕α╕áα╕▓ α╣Çα╕òα╕èα╕░α╕üα╕│α╕₧α╕╕",
+    "dob": "2005-07-25",
+    "email": "suchinthngpaaknam@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 18,
+  "fields": {
+    "name": "α╕ºα╕▒α╕Öα╕ëα╕▒α╕òα╕ú α╣Çα╕íα╕╖α╕¡α╕çα╕¬α╕╕α╕é",
+    "dob": "2007-04-27",
+    "email": "maetkul@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 19,
+  "fields": {
+    "name": "α╕Öα╕▓α╕ºα╕╡α╕òα╕▓ α╕ûα╕╕α╕çα╣Çα╕çα╕┤α╕Ö",
+    "dob": "2001-06-25",
+    "email": "mnas35@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 20,
+  "fields": {
+    "name": "α╕¢α╕úα╕░α╣äα╕₧α╕₧α╕▒α╕üα╕òα╕úα╣î α╕¬α╕çα╕¢α╕úα╕░α╣Çα╕¬α╕úα╕┤α╕É",
+    "dob": "1997-06-16",
+    "email": "mnaksamhrwcch@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 21,
+  "fields": {
+    "name": "α╕¿α╕╕α╕áα╕▓α╕¿α╕┤α╕Ñ α╕ûα╕Öα╕▒α╕öα╕úα╕Ü",
+    "dob": "1997-01-02",
+    "email": "aophthisaty@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 22,
+  "fields": {
+    "name": "α╕¿α╕┤α╕úα╕┤α╕Öα╕▒α╕Öα╕ùα╣î α╕éα╕╕α╕Öα╕öα╕│",
+    "dob": "1994-07-04",
+    "email": "mbuyyaaaily@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 23,
+  "fields": {
+    "name": "α╕¡α╕▓α╕ïα╕╖α╕¡α╕íα╕░ α╕Öα╕┤α╕óα╕íα╕¬α╕│α╕½α╕úα╕ºα╕ê",
+    "dob": "1995-01-30",
+    "email": "kbuysl@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 24,
+  "fields": {
+    "name": "α╣Çα╕üα╕⌐α╕íα╕èα╕▒α╕ó α╕êα╕▒α╕Öα╕¡α╣ëα╕Ö",
+    "dob": "1999-06-25",
+    "email": "nkhrethphnraawrrn@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 25,
+  "fields": {
+    "name": "α╣Çα╕Öα╕òα╕┤α╕Ñα╕▒α╕üα╕⌐α╕ôα╣î α╕¿α╕úα╕╡α╕òα╕░α╕ºα╕▒α╕Ö",
+    "dob": "2004-12-24",
+    "email": "nathphichaa07@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 26,
+  "fields": {
+    "name": "α╕óα╕¿α╕ºα╕▒α╕Æα╕Öα╣î α╕ÿα╕╣α╕¢α╕½α╕¡α╕í",
+    "dob": "1998-03-27",
+    "email": "wcchann@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 27,
+  "fields": {
+    "name": "α╕êα╕╡α╕úα╕óα╕╕α╕ùα╕ÿ α╕òα╕ºα╕▒α╕Öα╣Çα╕óα╕╡α╣êα╕óα╕í",
+    "dob": "2003-07-16",
+    "email": "zthnmkulbutr@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 28,
+  "fields": {
+    "name": "α╕¬α╕íα╣âα╕ê α╕òα╕ºα╕▒α╕Öα╣Çα╕óα╕╡α╣êα╕óα╕í",
+    "dob": "1996-11-01",
+    "email": "yecchriyramy@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 29,
+  "fields": {
+    "name": "α╕íα╕▓α╕ïα╕╡α╣Çα╕òα╕▓α╕░ α╕Öα╕┤α╕òα╕┤α╕¬α╕▓α╕éα╕▓",
+    "dob": "2003-12-11",
+    "email": "wrinththithrtwngthng@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 30,
+  "fields": {
+    "name": "α╕úα╕èα╕òα╕üα╕ú α╣Çα╕Öα╕òα╕úα╣îα╕íα╕ôα╕╡",
+    "dob": "1996-07-05",
+    "email": "btangephaa@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 31,
+  "fields": {
+    "name": "α╕₧α╕┤α╕íα╕₧α╣îα╕¬α╕╕α╕öα╕▓ α╣äα╕ùα╕óα╣üα╕ùα╣ë",
+    "dob": "1998-06-16",
+    "email": "srthngrwiwaan@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 32,
+  "fields": {
+    "name": "α╕êα╕╡α╕úα╕óα╕╕α╕ùα╕ÿ α╕ûα╕╕α╕çα╣Çα╕çα╕┤α╕Ö",
+    "dob": "1998-09-25",
+    "email": "wbunyaphaachn@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 33,
+  "fields": {
+    "name": "α╕êα╕▒α╕üα╕úα╕╡α╕úα╕▒α╕òα╕Öα╣î α╕ÿα╕Öα╕¢α╕úα╕░α╕ùα╕╡α╕¢",
+    "dob": "1999-11-04",
+    "email": "suthaawiisantawngs@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 34,
+  "fields": {
+    "name": "α╕ÿα╕╡α╕úα╕ºα╕▒α╕è α╕ùα╕úα╕çα╣éα╕üα╕íα╕Ñ",
+    "dob": "2006-04-03",
+    "email": "aiwphcchndaawraam@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 35,
+  "fields": {
+    "name": "α╕¢α╕úα╕┤α╕ìα╕ìα╕▓ α╕ùα╕¡α╕çα╕Ñα╕▓α╕á",
+    "dob": "1999-07-20",
+    "email": "thmlphrrn73@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 36,
+  "fields": {
+    "name": "α╕êα╕┤α╕òα╕úα╕Ñα╕öα╕▓ α╕ûα╕Öα╕┤α╕íα╕íα╕▓α╕¿",
+    "dob": "1994-10-19",
+    "email": "phaaniniiaehymsiri@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 37,
+  "fields": {
+    "name": "α╕₧α╕úα╕¢α╕úα╕▓α╕ôα╕╡ α╕Üα╕╕α╕ìα╕¬α╣êα╕ç",
+    "dob": "2004-06-25",
+    "email": "nanthikaantngaamphiechsth@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 38,
+  "fields": {
+    "name": "α╣Çα╕óα╕▓α╕ºα╕úα╕▒α╕òα╕Öα╣î α╕¬α╕▓α╕úα╕░α╕₧α╕▒α╕Öα╕ÿα╣î",
+    "dob": "1995-11-05",
+    "email": "phrchnk46@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 39,
+  "fields": {
+    "name": "α╕Öα╕▒α╕Öα╕ùα╕ºα╕úα╕úα╕ô α╕ÿα╕╡α╕ºα╕ú",
+    "dob": "2007-05-14",
+    "email": "chrinthrthiphynphkhechnthr@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 40,
+  "fields": {
+    "name": "α╕¢α╕úα╕┤α╕ìα╕ìα╕▓ α╕ÿα╕╕α╕ºα╕░α╕Öα╕╕α╕òα╕┤α╣î",
+    "dob": "1998-07-18",
+    "email": "piyananth37@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 41,
+  "fields": {
+    "name": "α╕ºα╕╡α╕úα╕░α╕ºα╕▒α╕Æα╕Öα╣î α╕¢α╕▓α╕Öα╕¬α╕╕α╕ºα╕úα╕úα╕ô",
+    "dob": "2005-05-18",
+    "email": "cchitrldaa33@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 42,
+  "fields": {
+    "name": "α╕¬α╕íα╕½α╕íα╕▓α╕ó α╕èα╕╕α╕íα╕ºα╕úα╕░",
+    "dob": "2006-08-31",
+    "email": "thinwathn10@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 43,
+  "fields": {
+    "name": "α╕ºα╕úα╕úα╕ôα╕úα╕▒α╕òα╕Öα╣î α╕ûα╕Öα╕▒α╕öα╕¡α╕▓α╕ºα╕╕α╕ÿ",
+    "dob": "1998-06-13",
+    "email": "jphrsiimaa@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 44,
+  "fields": {
+    "name": "α╕¬α╕╕α╕úα╕ºα╕▒α╕è α╕òα╕▒α╣ëα╕çα╣Çα╕£α╣êα╕▓",
+    "dob": "1998-06-26",
+    "email": "tsriisaty@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 45,
+  "fields": {
+    "name": "α╕ùα╕┤α╕íα╕▓α╕áα╕úα╕ôα╣î α╣äα╕ùα╕Öα╕┤α╕óα╕í",
+    "dob": "1997-08-12",
+    "email": "suththiphcchn82@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 46,
+  "fields": {
+    "name": "α╕ºα╕┤α╕₧α╕╕α╕ÿ α╕òα╕┤α╕ôα╕úα╕▒α╕òα╕Öα╣î",
+    "dob": "2003-07-15",
+    "email": "yhnunsukh@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 47,
+  "fields": {
+    "name": "α╕íα╕╣α╕«α╕▒α╕íα╕½α╕íα╕▒α╕öα╕¡α╕┤α╕íα╕úα╕¡α╕Ö α╕½α╕Öα╕╕α╕Öα╕¬α╕╕α╕é",
+    "dob": "1996-09-01",
+    "email": "surniiy45@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 48,
+  "fields": {
+    "name": "α╕ÿα╕úα╕▓α╕ºα╕┤α╕ùα╕ìα╣î α╕Öα╕┤α╕Ñα╕¬α╕Ñα╕▒α╕º",
+    "dob": "1997-07-13",
+    "email": "phimphphichyaadaabephchr@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 49,
+  "fields": {
+    "name": "α╕¢α╕úα╕░α╕êα╕┤α╕Ö α╕¡α╕╕α╣êα╕Öα╕¡α╕ü",
+    "dob": "1998-12-12",
+    "email": "khhmanklaangbuyphaa@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 50,
+  "fields": {
+    "name": "α╕¡α╕▒α╕Üα╕öα╕╕α╕Ñα╣Çα╕Ñα╕▓α╕░α╕½α╣î α╕úα╕▓α╕èα╕íα╕ôα╕╡",
+    "dob": "1997-11-03",
+    "email": "nichechtthchatrphiethiiyngkham@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 51,
+  "fields": {
+    "name": "α╕₧α╕▒α╕èα╕úα╕₧α╕ú α╣äα╕ùα╕óα╕¬α╕╕α╕èα╕▓α╕ò",
+    "dob": "2000-09-18",
+    "email": "daawkracchaaythiwatr@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 52,
+  "fields": {
+    "name": "α╕êα╕▒α╕Öα╕ùα╕Öα╕▓ α╕ûα╕Öα╕¡α╕íα╕₧α╕Ñ",
+    "dob": "2004-03-01",
+    "email": "buyethiiynthngaeth@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 53,
+  "fields": {
+    "name": "α╕Öα╕úα╕╡α╕úα╕▒α╕òα╕Öα╣î α╕öα╕▓α╕ºα╕üα╕úα╕░α╕êα╕▓α╕ó",
+    "dob": "1994-07-13",
+    "email": "cchakrkrnaay13@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 54,
+  "fields": {
+    "name": "α╕óα╕╣α╕ïα╕╕α╕ƒ α╕¡α╕▒α╕òα╕òα╕Öα╕▓α╕û",
+    "dob": "2001-01-05",
+    "email": "tdaawkracchaay@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 55,
+  "fields": {
+    "name": "α╕úα╕▒α╕Éα╕₧α╕çα╕⌐α╣î α╕öα╕│α╕úα╕┤α╕½α╣îα╕èα╕¡α╕Ü",
+    "dob": "2004-04-09",
+    "email": "maariinii87@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 56,
+  "fields": {
+    "name": "α╕ÿα╕╡α╕úα╕ºα╕╕α╕Æα╕┤ α╕¬α╕▒α╕çα╕éα╣îα╕üα╕úα╕ö",
+    "dob": "2004-01-16",
+    "email": "lthasnsuththi@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 57,
+  "fields": {
+    "name": "α╕áα╕▒α╕äα╕èα╕Öα╕Ö α╕ÿα╕▒α╕ìα╣Çα╕¬α╕ûα╕╡α╕óα╕ú",
+    "dob": "1995-04-29",
+    "email": "nilwimlpiynuch@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 58,
+  "fields": {
+    "name": "α╣üα╕üα╕íα╣üα╕₧α╕ú α╕ûα╕Öα╕¡α╕íα╕₧α╕Ñ",
+    "dob": "2006-11-28",
+    "email": "ecchtthnaakr97@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 59,
+  "fields": {
+    "name": "α╕₧α╕▓α╕öα╕╡α╕Ñα╣èα╕░ α╣äα╕ùα╕óα╕¬α╕╕α╕èα╕▓α╕ò",
+    "dob": "1996-04-12",
+    "email": "thwnthngkhmkrchy@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 60,
+  "fields": {
+    "name": "α╣éα╕èα╕äα╕áα╕▓α╕öα╕Ñ α╕Öα╕₧α╕òα╕úα╕░α╕üα╕╣α╕Ñ",
+    "dob": "1995-06-19",
+    "email": "raachmniiphathrnaad@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 61,
+  "fields": {
+    "name": "α╣Çα╕íα╕ùα╕Öα╕╡ α╕òα╕▒α╣ëα╕çα╕üα╕╕α╕Ñα╕çα╕▓α╕í",
+    "dob": "2005-10-19",
+    "email": "bnilslaw@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 62,
+  "fields": {
+    "name": "α╣Çα╕éα╕íα╕êα╕┤α╕úα╕▓ α╕¡α╕╕α╣êα╕Öα╕¡α╕ü",
+    "dob": "1999-07-05",
+    "email": "phaaninii95@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 63,
+  "fields": {
+    "name": "α╕áα╕▓α╕Öα╕╕α╕ºα╕▒α╕òα╕ú α╣üα╕Öα╕ºα╕₧α╕Öα╕┤α╕è",
+    "dob": "2003-03-05",
+    "email": "entrmniiknkentr@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 64,
+  "fields": {
+    "name": "α╕ºα╕┤α╕ùα╕╣α╕Ñα╕óα╣î α╕Öα╕▓α╕ûα╕░α╕₧α╕┤α╕Öα╕ÿα╕╕",
+    "dob": "2001-06-23",
+    "email": "maennducchpm@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 65,
+  "fields": {
+    "name": "α╕ƒα╕┤α╕úα╕óα╕▓ α╕ÿα╕╣α╕¢α╕½α╕¡α╕í",
+    "dob": "2007-04-25",
+    "email": "mnratnthnadedinkhaaw@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 66,
+  "fields": {
+    "name": "α╣Çα╕₧α╕ùα╕▓α╕ó α╕öα╕▓α╕Üα╣Çα╕₧α╣çα╕èα╕úα╣î",
+    "dob": "2001-03-21",
+    "email": "wnuchaenwnum@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 67,
+  "fields": {
+    "name": "α╕ëα╕▒α╕òα╕úα╕¢α╕úα╕╡α╕óα╕▓ α╕òα╕▒α╣ëα╕çα╕üα╕╕α╕Ñα╕çα╕▓α╕í",
+    "dob": "1997-04-26",
+    "email": "risraa02@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 68,
+  "fields": {
+    "name": "α╕äα╕│α╕¢α╕Ñα╕┤α╕º α╕öα╕▓α╕ºα╕¡α╕úα╣êα╕▓α╕í",
+    "dob": "2001-02-05",
+    "email": "paithysuchaat@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 69,
+  "fields": {
+    "name": "α╕ºα╕╡α╕úα╕░α╕ºα╕▒α╕Æα╕Öα╣î α╕¬α╕▒α╕çα╕éα╣îα╕üα╕úα╕ö",
+    "dob": "2002-04-03",
+    "email": "mnkthng@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 70,
+  "fields": {
+    "name": "α╕ùα╕▓α╕Öα╕òα╕░α╕ºα╕▒α╕Ö α╣Çα╕òα╕íα╕┤α╕óα╕░α╣Çα╕öα╕è",
+    "dob": "1998-09-01",
+    "email": "thnadedinkhaawkulechsth@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 71,
+  "fields": {
+    "name": "α╕êα╕┤α╕úα╕ºα╕┤α╕ùα╕óα╣î α╕öα╕▓α╕Üα╣Çα╕çα╕┤α╕Ö",
+    "dob": "1995-02-27",
+    "email": "bthnadaksr@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 72,
+  "fields": {
+    "name": "α╣Çα╕üα╕⌐α╕úα╕▓ α╕çα╕▓α╕íα╕₧α╕┤α╣Çα╕èα╕⌐α╕Éα╣î",
+    "dob": "2004-09-16",
+    "email": "tanephaananthwuthi@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 73,
+  "fields": {
+    "name": "α╕Öα╕┤α╕ºα╕┤α╕Ñα╕öα╕▓α╕Ö α╕Öα╕┤α╕Ñα╕ºα╕┤α╕íα╕Ñ",
+    "dob": "1994-12-22",
+    "email": "nilwimlchuuraydaa@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 74,
+  "fields": {
+    "name": "α╕¿α╕┤α╕úα╕┤α╣Çα╕üα╕¿ α╕ÿα╕Öα╕úα╕▒α╕üα╕⌐α╣î",
+    "dob": "1998-04-13",
+    "email": "anthikaanilwiml@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 75,
+  "fields": {
+    "name": "α╕êα╕┤α╕úα╕ºα╕┤α╕ùα╕óα╣î α╕ùα╕╡α╕åα╕░",
+    "dob": "2004-06-24",
+    "email": "osaastrsilp@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 76,
+  "fields": {
+    "name": "α╕ºα╕úα╕¿α╕▓α╕¬α╕¬α╣î α╕òα╕▒α╕Öα╕óα╕▓",
+    "dob": "1996-08-15",
+    "email": "xpracchantaesn@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 77,
+  "fields": {
+    "name": "α╕êα╕╕α╕æα╕▓α╕úα╕▒α╕òα╕Öα╣î α╕Üα╕╕α╕òα╕öα╕▓",
+    "dob": "2001-08-05",
+    "email": "buynphnaathaphinthu@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 78,
+  "fields": {
+    "name": "α╕₧α╕¿α╕ú α╕Öα╕₧α╕òα╕úα╕░α╕üα╕╣α╕Ñ",
+    "dob": "2000-02-24",
+    "email": "tyaapaolhit@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 79,
+  "fields": {
+    "name": "α╕áα╕▓α╕Öα╕╕α╕ºα╕▒α╕òα╕ú α╕òα╕úα╕╡α╣Çα╕áα╕úα╕┤α╕Öα╕ùα╕úα╣î",
+    "dob": "2002-08-04",
+    "email": "saastrsilpnanthikaant@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 80,
+  "fields": {
+    "name": "α╕¬α╕┤α╕úα╕▓α╕₧α╕ú α╕ëα╕▒α╕₧α╕₧α╕úα╕úα╕ôα╕ÿα╕Öα╕üα╕╣α╕ú",
+    "dob": "1995-12-25",
+    "email": "paansuwrrnsuphathridaa@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 81,
+  "fields": {
+    "name": "α╕₧α╕┤α╣äα╕Ñα╕₧α╕ú α╕öα╕▓α╕ºα╕¡α╕úα╣êα╕▓α╕í",
+    "dob": "1998-09-22",
+    "email": "lnaakhsuthin@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 82,
+  "fields": {
+    "name": "α╣Çα╕êα╕⌐α╕Äα╕▓α╕üα╕ú α╕ùα╕╡α╕åα╕░",
+    "dob": "1994-07-16",
+    "email": "thnadhatthkrrmniti@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 83,
+  "fields": {
+    "name": "α╕êα╕▒α╕Öα╕ùα╕áα╕▓ α╕ûα╕íα╕▒α╕çα╕úα╕▒α╕üα╕⌐α╕¬α╕▒α╕òα╕ºα╣î",
+    "dob": "2003-04-25",
+    "email": "aimaedngosphaa@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 84,
+  "fields": {
+    "name": "α╕úα╕ºα╕┤α╕ºα╕▓α╕Ö α╕ûα╕▓α╕ºα╕úα╕░α╕ºα╕úα╕ôα╣î",
+    "dob": "2003-08-02",
+    "email": "smml23@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 85,
+  "fields": {
+    "name": "α╕Öα╕ºα╕úα╕úα╕⌐α╕Öα╕▒α╕Öα╕ùα╣î α╕¡α╕╕α╣êα╕Öα╕¡α╕ü",
+    "dob": "2001-03-30",
+    "email": "khmkrib48@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 86,
+  "fields": {
+    "name": "α╕ºα╕¬α╕┤α╕òα╕▓ α╕Öα╕▓α╕ûα╕░α╣Çα╕öα╕èα╕░",
+    "dob": "1994-07-19",
+    "email": "phaasiniikhundam@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 87,
+  "fields": {
+    "name": "α╕Öα╕┤α╕èα╕Öα╕▒α╕Öα╕ùα╣î α╕òα╕▒α╣ëα╕çα╣Çα╕£α╣êα╕▓",
+    "dob": "2000-03-27",
+    "email": "rphasphngsechaawandii@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 88,
+  "fields": {
+    "name": "α╕¢α╕úα╕íα╕┤α╕Öα╕ùα╕úα╣î α╕ºα╕░α╕äα╕╡α╕íα╕▒α╕Ö",
+    "dob": "2006-03-31",
+    "email": "muuhammad45@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 89,
+  "fields": {
+    "name": "α╣Çα╕óα╕▓α╕ºα╕úα╕▒α╕òα╕Öα╣î α╕ùα╕¡α╕çα╣Çα╕Öα╕╖α╣ëα╕¡α╕öα╕╡",
+    "dob": "1999-02-13",
+    "email": "praaiphphaktr18@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 90,
+  "fields": {
+    "name": "α╕₧α╕╡α╕úα╕áα╕▒α╕ùα╕úα╣î α╣Çα╕öα╕èα╕ºα╕▓",
+    "dob": "2007-05-16",
+    "email": "wirchaynwlephng@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 91,
+  "fields": {
+    "name": "α╕Üα╕╕α╕ìα╣Çα╕üα╕┤α╕ö α╕Öα╕▓α╕äα╕░α╕Öα╕äα╕ú",
+    "dob": "1999-04-21",
+    "email": "khnphrnnamthiphy@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 92,
+  "fields": {
+    "name": "α╕¡α╕Öα╕┤α╕ºα╕▒α╕Æα╕Öα╣î α╕öα╕┤α╕¬α╕üα╕░α╕¢α╕úα╕░α╕üα╕▓α╕ó",
+    "dob": "2001-05-17",
+    "email": "aetkulphimphpraphaa@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 93,
+  "fields": {
+    "name": "α╕ïα╕╣α╕«α╕▒α╕óα╕öα╕▓ α╕ûα╕╕α╕çα╣Çα╕çα╕┤α╕Ö",
+    "dob": "1997-09-26",
+    "email": "thiiraathat18@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 94,
+  "fields": {
+    "name": "α╕óα╕¡α╕öα╣üα╕íα╕Ö α╣üα╕êα╣ëα╕çα╕¬α╕ºα╣êα╕▓α╕ç",
+    "dob": "2000-06-23",
+    "email": "surniiy83@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 95,
+  "fields": {
+    "name": "α╕¬α╕┤α╕úα╕┤α╕úα╕▒α╕òα╕Öα╣î α╕₧α╕úα╕¬α╕╡α╕íα╕▓",
+    "dob": "2002-01-08",
+    "email": "nichnanthattnaath@example.org"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 96,
+  "fields": {
+    "name": "α╕¬α╕íα╕¢α╕¡α╕ç α╕áα╕╣α╕áα╕▒α╕üα╕öα╕╡",
+    "dob": "1996-01-31",
+    "email": "ulhassaarisraa@example.net"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 97,
+  "fields": {
+    "name": "α╣Çα╕¡α╕üα╕¡α╕ÿα╕┤α╕₧α╕çα╕⌐α╣î α╕ùα╕▒α╕Üα╕ùα╕┤α╕íα╣äα╕ùα╕ó",
+    "dob": "2003-10-31",
+    "email": "cchd30@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 98,
+  "fields": {
+    "name": "α╕èα╕Öα╕┤α╕¿α╕▓ α╕ùα╕¡α╕çα╣Çα╕Öα╕╖α╣ëα╕¡α╕öα╕╡",
+    "dob": "1995-01-07",
+    "email": "thngenuuediiaichyphph@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 99,
+  "fields": {
+    "name": "α╕üα╕┤α╕òα╕┤α╕ºα╕▒α╕Æα╕Öα╣î α╕òα╕▒α╕ôα╕¬α╕ûα╕┤α╕òα╕óα╣î",
+    "dob": "1997-07-17",
+    "email": "amaiph64@example.com"
+  }
+},
+{
+  "model": "myapp.student",
+  "pk": 100,
+  "fields": {
+    "name": "α╕₧α╕▒α╕¬α╕ºα╕╡ α╕¿α╕┤α╕ºα╕░α╕ºα╕úα╣Çα╕ºα╕ù",
+    "dob": "2007-05-10",
+    "email": "aekwchlkhraamsuaihlan@example.com"
+  }
+}
+]

@@ -13,11 +13,10 @@ class Command(BaseCommand):
     fake = Faker('th_TH')
 
     for _ in range(num_students):
-      student = Student(
+      Student.objects.create(
         name=fake.name(),
         dob=fake.date_of_birth(minimum_age=18, maximum_age=30),
         email=fake.email()
       )
-      student.save()
 
     self.stdout.write(self.style.SUCCESS(f'สร้างนักเรียน {num_students} คนเรียบร้อย'))
